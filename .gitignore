@@ -1,0 +1,62 @@
+# Virtual environment
+myenv/
+env/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and temporary files
+logs/
+*.log
+*.out
+*.err
+*.pid
+*.gz
+*.swp
+
+# Python packages
+*.egg-info/
+dist/
+build/
+
+# Cache
+.cache/
+pip-wheel-metadata/
+
+# Data files (if needed)
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.xml
+
+# Model files (if needed)
+models/
+checkpoints/
+*.h5
+*.pth
+*.ckpt
+*.pb
+
+# VS Code settings
+.vscode/
+
+# Docker and environment files (if applicable)
+.env
+.envrc
+*.dockerignore
+
+# Jupyter Lab
+.jupyter/
+.ipython/
+
+# TensorFlow SavedModel directory
+saved_model/
